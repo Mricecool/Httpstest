@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/https_get_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https get single" />
+
+    <Button
+        android:id="@+id/https_post_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https post single" />
+
+    <Button
+        android:id="@+id/https_get_double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https get double" />
+
+    <Button
+        android:id="@+id/https_post_double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https post double" />
+
+    <TextView
+        android:id="@+id/str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+</LinearLayout>
